@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-   try {
+        try {
         // Exemple d'utilisation avec un fichier PGM
-        Matrix mat("image.pgm"); // Remplace "image.pgm" par le nom de ton fichier PGM
+        Matrix mat("images/bonhomeBlouson.pgm"); // Remplace "image.pgm" par le nom de ton fichier PGM
 
         std::cout << "Matrice : " << std::endl;
         mat.display();
@@ -18,6 +18,7 @@ int main()
     } catch (const std::exception& e) {
         std::cerr << "Erreur : " << e.what() << std::endl;
     }
+
 
     return 0;
 

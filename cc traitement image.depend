@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1737304240 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\matrix.cpp
+	<iostream>
+	<vector>
+	<stdexcept>
+	<fstream>
+	<sstream>
+
+1737306034 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\main.cpp
+	<iostream>
+	"Matrix.cpp"
+
+1737307068 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\matrix.cpp
+	<iostream>
+	<vector>
+	<stdexcept>
+	<fstream>
+	<sstream>
+

@@ -6,9 +6,10 @@
 
 class Matrix {
 private:
-    std::vector<std::vector<int>> data;
-    int rows;
-    int cols;
+    std::vector<std::vector<int>> data; // Conteneur pour les données de la matrice
+    int rows; // Nombre de lignes
+    int cols; // Nombre de colonnes
+    int maxVal; // Valeur maximale des pixels
 
 public:
     // Constructeur qui initialise la matrice avec des dimensions spécifiées
@@ -30,16 +31,37 @@ public:
             throw std::invalid_argument("Unsupported file format");
         }
 
-        // Lire les dimensions
-        int maxVal;
-        file >> cols >> rows >> maxVal;
+        // Ignorer les lignes vides et les commentaires
+        while (std::getline(file, line)) {
+            if (line.empty() || line[0] == '#') {
+                continue; // Ignorer les lignes vides et les commentaires
+            }
+
+            std::istringstream iss(line);
+            // Lire les dimensions
+            if (iss >> cols >> rows) {
+                break; // Sortir de la boucle si les dimensions sont lues
+            }
+        }
+
+        // Lire la valeur maximale
+        if (!(file >> maxVal)) {
+            throw std::invalid_argument("Failed to read max value");
+        }
+
+        // Vérification des dimensions
+        if (rows <= 0 || cols <= 0) {
+            throw std::invalid_argument("Invalid dimensions in PGM file");
+        }
 
         data.resize(rows, std::vector<int>(cols));
 
         // Lire les valeurs de pixel
         for (int i = 0; i < rows; ++i) {
             for (int j = 0; j < cols; ++j) {
-                file >> data[i][j];
+                if (!(file >> data[i][j])) {
+                    throw std::runtime_error("Failed to read pixel data");
+                }
             }
         }
     }
@@ -68,5 +90,10 @@ public:
             }
             std::cout << std::endl;
         }
+    }
+
+    // Méthode pour afficher les dimensions de la matrice
+    void dimensions() const {
+        std::cout << "Dimensions : " << rows << " x " << cols << std::endl;
     }
 };
