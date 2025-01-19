@@ -1,19 +1,136 @@
 # depslib dependency file v1.0
-1737304240 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\matrix.cpp
+1737323494 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\matrix.cpp
+	"Matrix.h"
+
+1737324319 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\main.cpp
+	"Matrix.h"
+	"Brightness.h"
+	"Contrast.h"
+	"ImageSaver.h"
+	"Threshold.h"
+	"SumImages.h"
+	"ImageResizer.h"
+	"SubtractImages.h"
+	"MeanFilter.h"
+	"GaussianFilter.h"
+	"PrewittFilter.h"
+	"RobertsFilter.h"
+	"LaplacianFilter.h"
+	"OtsuThreshold.h"
+	"HoughTransform.h"
+	<vector>
+	"Zoom.h"
+
+1737309132 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\matrix.cpp
+	"Matrix.h"
+
+1737311019 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\brightness.cpp
+	"Brightness.h"
+
+1737310272 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\imagesaver.cpp
+	"ImageSaver.h"
+
+1737323326 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\matrix.h
 	<iostream>
 	<vector>
 	<stdexcept>
 	<fstream>
 	<sstream>
 
-1737306034 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\main.cpp
-	<iostream>
-	"Matrix.cpp"
+1737309707 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\contrast.cpp
+	"Contrast.h"
 
-1737307068 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\matrix.cpp
+1737309960 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\contrast.h
+	"Matrix.h"
+
+1737310995 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\brightness.h
+	"Matrix.h"
+
+1737310119 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\imagesaver.h
+	"Matrix.h"
+
+1737310809 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\threshold.h
+	"Matrix.h"
+
+1737310825 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\threshold.cpp
+	"Threshold.h"
+
+1737313345 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\sumimages.cpp
+	"SumImages.h"
+
+1737311468 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\sumimages.h
+	"Matrix.h"
+
+1737312771 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\imageresizer.cpp
+	"ImageResizer.h"
 	<iostream>
+
+1737312204 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\imageresizer.h
+	"Matrix.h"
+
+1737317895 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\subtractimages.cpp
+	"SubtractImages.h"
+
+1737317882 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\subtractimages.h
+	"Matrix.h"
+
+1737319017 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\meanfilter.cpp
+	"MeanFilter.h"
+
+1737319004 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\meanfilter.h
+	"Matrix.h"
+
+1737319369 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\gaussianfilter.cpp
+	"GaussianFilter.h"
+	<cmath>
+
+1737319347 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\gaussianfilter.h
+	"Matrix.h"
 	<vector>
-	<stdexcept>
-	<fstream>
-	<sstream>
+
+1737320493 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\prewittfilter.cpp
+	"PrewittFilter.h"
+	"Matrix.h"
+	<cmath>
+
+1737320687 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\prewittfilter.h
+	"Matrix.h"
+
+1737320834 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\robertsfilter.h
+	"Matrix.h"
+
+1737320854 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\robertsfilter.cpp
+	"RobertsFilter.h"
+	<cmath>
+
+1737321331 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\laplacianfilter.cpp
+	"LaplacianFilter.h"
+	<cmath>
+
+1737321311 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\laplacianfilter.h
+	"Matrix.h"
+
+1737321683 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\otsuthreshold.cpp
+	"OtsuThreshold.h"
+	<cmath>
+	<limits>
+
+1737321667 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\otsuthreshold.h
+	"Matrix.h"
+
+1737322380 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\houghtransform.h
+	"Matrix.h"
+	<vector>
+
+1737323628 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\houghtransform.cpp
+	"HoughTransform.h"
+	<cmath>
+	<limits>
+
+1737324462 d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\zoom.h
+	"Matrix.h"
+
+1737324480 source:d:\5gi\cours\sig  et traitement d'image\traitement d'image\projet\cc traitement image\zoom.cpp
+	"Zoom.h"
+	"Matrix.h"
 
